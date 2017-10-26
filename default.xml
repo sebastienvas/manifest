@@ -6,12 +6,16 @@
 
   <default remote="github" revision="master" sync-j="4"  />
 
+
+  <!-- Istio global build -->
+  <project path="build" name="sebastienvas/istio-global-build"/>
+
   <!-- Istio go components -->
   <project path="go/src/istio.io/istio" name="istio/istio"/>
   <project path="go/src/istio.io/pilot" name="istio/pilot"/>
   <project path="go/src/istio.io/mixer"  name="istio/mixer" />
   <project path="go/src/istio.io/auth" name="istio/auth"/>
-  
+
   <!-- C++ code under src, to avoid poluting the go source path -->
   <project path="src/proxy" name="istio/proxy" />
 
