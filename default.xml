@@ -10,7 +10,7 @@
   <project path="build" name="sebastienvas/istio-global-build"/>
 
   <!-- Istio go components -->
-  <project path="go/src/istio.io/istio" name="istio/istio"/>
+  <project path="go/src/istio.io/istio" name="sebastienvas/istio"/>
   <project path="go/src/istio.io/test-infra" name="istio/test-infra"/>
 
   <!-- C++ code under src, to avoid poluting the go source path -->
